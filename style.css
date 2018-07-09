@@ -1,0 +1,50 @@
+body{ background-color: #aaaaaa; }
+
+header{
+	padding: 16px 16px 8px 16px;
+	margin-bottom: 8px;
+	background: #dddddd;
+	color: #222222;
+}
+
+#name{
+	display:inline-block;
+	margin-left: 16px;	
+}
+
+#avatar{ margin-bottom: -3px; }
+
+#grid td{
+	width:60px;
+	height:60px;
+	min-width: 60px;
+	min-height: 60px;
+	color: white;
+	background-color: white;
+	line-height: 28px;
+}
+
+.avatar{
+	margin:16px 0px 16px 16px;
+	border-radius:50%;
+	border:1px solid black;
+	width:26px;
+	height:26px;
+	display: inline-block;
+	text-align: center;
+}
+
+.gun{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width:11px;
+	height:40px;
+}
+
+.gun-1{ background: black; }
+.gun-2{ background: orange; }
+.gun-3{ background: blue; }
+.gun-4{ background: purple; }
+
+.wall{ opacity: 0; }
